@@ -27,6 +27,13 @@ Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains (WebStorm, etc.)
+.idea/
+
 # Dump file
 *.stackdump
 
@@ -45,5 +52,13 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Sass/CSS Preprocessors
+.sass-cache/
+*.css.map
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
