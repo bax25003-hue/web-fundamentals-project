@@ -1,1 +1,1 @@
-This repository will be used to store my WDD-130
+This repository will be used to store my WDD-130 projects.
