@@ -76,7 +76,7 @@ h2 {
     border-top-left-radius: 6px;
     padding-bottom: 5px;
 }
-/* Class selector starts with a . */
+/* Class selector starts with a "." */
 .paragraphFont {
     font-family: var(--paragraph-font);
     font-size: 14px;

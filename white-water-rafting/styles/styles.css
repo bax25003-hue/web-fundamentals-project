@@ -1,0 +1,174 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #134266   ;
+  --secondary-color: #CCE6F4 ;
+  --tertiary-color: #317b96;
+  --accent1-color: #9C7178;
+  --accent2-color: #FFC759;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Montserrat";
+  --paragraph-font: "Mulish";
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: var(--primary-color);  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: var(--primary-color); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: var(--tertiary-color)  ;
+  --nav-link-color: white;
+  --nav-background-color: var(--accent1-color);
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: var(--tertiary-color);
+    font-family: var(--heading-font);
+}
+
+/* NOTE FOR NAV A: The "Home" nav button was sticking into the logo
+so I put a margin-bottom on the logo itself to temporarily prevent this
+until classtime so I can ask about it.*/
+
+nav a {
+    text-align: center;
+    background-color: var(--tertiary-color);
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: var(--accent2-color);
+}
+main {
+    text-align: center;
+}
+section {
+    text-align: center;
+}
+h2 {
+    margin: 0;
+}
+h4 {
+    color: black;
+}
+
+#background {
+    height: 725px;
+    background-color: var(--accent1-color);
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+#logo_link {
+    padding-top: 5px;
+}
+
+.book {
+    background-color: var(--tertiary-color);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover {
+    background-color: var(--accent2-color);
+    color: white;
+}
+.button-box {
+    text-align: center;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid;
+    border-color: var(--tertiary-color);
+}
+.home-title {
+    color: black;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.join {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join:hover {
+    background-color: var(--accent2-color);
+    color: white;
+}
+.logo {
+    width: 80px;
+    margin-bottom: 30px; /* Temporary, see NAV A note */
+}
+.msg {
+    background-color: var(--tertiary-color);
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: white;
+}
+.msg p {
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+
+footer {
+    background-color: var(--accent1-color);
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
