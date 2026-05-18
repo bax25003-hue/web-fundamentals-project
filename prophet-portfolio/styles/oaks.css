@@ -1,0 +1,46 @@
+body {
+    background: #FFECD7;
+}
+#about-card {
+    background-color: #008DB1;
+    width: 70%;
+    height: 70%;
+    border: 4px solid #004e63;
+    border-radius: 10px;
+    display: flex;
+    justify-self: center;
+}
+#name {
+    font-family: Helvetica;
+    text-align: center;
+    color: #fffffe;
+    font-size: 50px;
+}
+#title {
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #91e4fb;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    justify-self: center;
+    width: 80%;
+    margin-top: -20px;
+}
+#prophet-image {
+    display: flex;
+    margin-top: 30px;
+    justify-self: center;
+    border: 4px solid #fffffe;
+}
+#img-list-group {
+    /* width: 80%; */
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    align-content: center;
+}
+#dates {
+    color: #fffffe;
+}
