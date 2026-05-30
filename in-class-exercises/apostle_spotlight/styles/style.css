@@ -1,0 +1,52 @@
+/* #main-graphic {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: black;
+} */
+#background-img {
+    grid-row: 1/2;
+}
+.apostle-photo {
+    border: 15px solid white;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+#first-presidency-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: end;
+}
+#eyring {
+    scale: .85;
+}
+#christofferson {
+    scale: .85;
+}
+#apostles {
+    margin-top: 0px;
+}
+#apostles-photos {
+    scale: .75;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+body {
+    color: #e8eced;
+}
+h1, h3 {
+    color: black; /* For temporary visilibity because I couldn't figure out the finished product */
+    text-align: center;
+}
+h1 {
+    font-size: 400%
+}
+h3{
+    font-size: 300%;
+    margin-bottom: 0px;
+}
