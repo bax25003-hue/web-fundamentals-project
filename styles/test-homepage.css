@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #044389;
+  --secondary-color: #CCE6F4;
+  --tertiary-color: #317b96;
+  --accent1-color: #9C7178;
+  --accent2-color: #FFC759;
+
+  --heading-font: "Montserrat";
+  --paragraph-font: "Mulish";
+
+  --headline-color-on-white: var(--primary-color);  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: var(--primary-color); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: var(--tertiary-color)  ;
+  --nav-link-color: white;
+  --nav-background-color: var(--accent1-color);
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+
+  background-color: whitesmoke;
+}
+body {
+    margin: 0px;
+}
+header {
+    background-color: var(--primary-color);
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-color);
+    font-size: 40px;
+}
+h2 {
+    color: black;
+    font-size: 28px;
+    font-family: var(--heading-font);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    color: white;
+}
+/* ID selector starts with a "#" */
+/* Class selector starts with a "." */
+.paragraphFont {
+    font-family: var(--paragraph-font);
+    font-size: 14px;
+}
+.card {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--primary-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: var(--tertiary-color);
+
+}
+.cardHeader {
+    background-color: var(--secondary-color);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 110px
+}
+.cardGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    /* better than 30% auto 30% because "1fr" calculates 
+    percentages based on other "fr"s present */
+    /* 2fr, 3fr, etc. can also be used */
+    grid-template-rows: auto;
+}
+.card p, .card a, .card ul, .card ol {
+    color: white;
+}
