@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 680 680">
+  <title>Web developer icon logo</title>
+  <desc>Circular dark warm brown icon with pink left bracket, yellow slash, and green right bracket</desc>
+
+  <circle cx="340" cy="335" r="200" fill="#4A2E1A"/>
+
+  <!-- { left bracket — pink -->
+  <path fill="none" stroke="#E8748A" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"
+        d="M284 235 Q248 235 248 269 L248 283 Q248 317 212 335 Q248 353 248 387 L248 401 Q248 435 284 435"/>
+
+  <!-- } right bracket — green -->
+  <path fill="none" stroke="#7DC47A" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"
+        d="M396 235 Q432 235 432 269 L432 283 Q432 317 468 335 Q432 353 432 387 L432 401 Q432 435 396 435"/>
+
+  <!-- / slash — yellow -->
+  <line fill="none" stroke="#E8C043" stroke-width="16" stroke-linecap="round"
+        x1="362" y1="243" x2="318" y2="427"/>
+</svg>
