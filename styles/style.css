@@ -79,6 +79,7 @@ h1{
     /* grid-template-columns: 10% 35% 10% 35% 10%; */
     grid-template-columns: 1fr 450px 1fr 450px 1fr;
     margin-top: 22vh;
+    margin-bottom: 50px;
 }
 .content-box{
     border: 3px solid;
